@@ -1,0 +1,45 @@
+@font-face {
+    font-family: sketch;
+    src: url(../GrungyBoldy-Regular.ttf);
+}
+
+
+
+body {
+    background: url(../Animated\ Shape.svg) no-repeat center center fixed;
+    font-family: sketch;
+    #content {
+        font-family: sketch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        width: 75%;
+    }
+    svg {
+        #human {
+            #head, #body, #rightArm, #leftArm, #rightLeg, #leftLeg {
+                transition: all 1s ease;
+            }
+            #head {
+                transform: translateY(-100%);
+            }
+            #body {
+                transform: translateY(200%);
+            }
+            #rightArm, #leftArm, #rightLeg, #leftLeg {
+                opacity: 0;
+            }
+        }
+    }
+    .hidden-letter {
+        display: inline-block;
+        width: 20px;
+        margin: 5px;
+        font-size: 24px;
+    }
+    .guessed-letters {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1">
+<rect width="300" height="300" fill="white"/>
+<g id="Body">
+<path id="head" d="M181.5 81.4539C181.5 96.7569 167.763 109.408 150.5 109.408C133.237 109.408 119.5 96.7569 119.5 81.4539C119.5 66.1509 133.237 53.5 150.5 53.5C167.763 53.5 181.5 66.1509 181.5 81.4539Z" stroke="black" stroke-width="3"/>
+<line id="body" x1="151.5" y1="110.908" x2="151.5" y2="215.129" stroke="black" stroke-width="3"/>
+<line id="rightArm" y1="-1.5" x2="61.6953" y2="-1.5" transform="matrix(-0.703101 0.71109 -0.776265 -0.630407 150.378 136.283)" stroke="black" stroke-width="3"/>
+<line id="rightArm_2" y1="-1.5" x2="61.6953" y2="-1.5" transform="matrix(-0.703101 -0.71109 -0.776265 0.630407 193.378 180.154)" stroke="black" stroke-width="3"/>
+<line id="rightLeg" y1="-1.5" x2="61.6953" y2="-1.5" transform="matrix(-0.703101 0.71109 -0.776265 -0.630407 150.378 215.129)" stroke="black" stroke-width="3"/>
+<line id="leftLeg" y1="-1.5" x2="61.6953" y2="-1.5" transform="matrix(-0.703101 -0.71109 -0.776265 0.630407 193.378 259)" stroke="black" stroke-width="3"/>
+</g>
+<g id="pole">
+<line id="basePole" x1="30" y1="282.5" x2="80" y2="282.5" stroke="black" stroke-width="3"/>
+<path id="shortPole" d="M151.5 19V54" stroke="black" stroke-width="3"/>
+<line id="mediumPole" x1="150" y1="20.5" x2="55" y2="20.5" stroke="black" stroke-width="3"/>
+<line id="longPole" x1="56.5" y1="19" x2="56.5" y2="284" stroke="black" stroke-width="3"/>
+</g>
+</g>
+</svg>
