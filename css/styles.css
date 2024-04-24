@@ -6,6 +6,9 @@ body {
   background: url(../Animated\ Shape.svg) no-repeat center center fixed;
   font-family: sketch;
 }
+body #title {
+  transition: color 1s;
+}
 body #content {
   font-family: sketch;
   display: flex;
@@ -35,4 +38,11 @@ body .hidden-letter {
 }
 body .guessed-letters {
   margin-top: 20px;
+}
+body #reset-button {
+  margin-top: 10px;
+  font-family: sketch;
+  border-radius: 10px;
+  background-color: rgb(151, 151, 151);
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

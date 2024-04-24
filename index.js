@@ -21,11 +21,19 @@ $(document).ready(function() {
     function checkGuess(letter) {
         if (chosenWord.indexOf(letter) === -1) {
             remainingGuesses--;
+            document.getElementById('title').style.color = 'red';
+            setTimeout(() => {
+                document.getElementById('title').style.color = 'black';
+            }, 1000);
             $('#remaining-guesses').text('Remaining Guesses: ' + remainingGuesses);
         } else {
             // Reveal the guessed letter in the word
             $('.hidden-letter').each(function(index) {
                 if (chosenWord[index] === letter) {
+                    document.getElementById('title').style.color = 'green';
+                    setTimeout(() => {
+                        document.getElementById('title').style.color = 'black';
+                    }, 1000);
                     $(this).text(letter);
                 }
             });
@@ -71,13 +79,13 @@ $(document).ready(function() {
         setTimeout(() => {
             document.getElementById('leftArm').style.opacity = "0";
             document.getElementById('rightArm').style.opacity = "0";
-        }, 750);
+        }, 500);
         setTimeout(() => {
             document.getElementById('body').style.transform = "translateY(200%)";
-        }, 1250);
+        }, 750);
         setTimeout(() => {
             document.getElementById('head').style.transform = "translateY(-100%)";
-        }, 1750);
+        }, 1000);
     }
 
     // Event handler for key presses
